@@ -1,0 +1,146 @@
+@font-header {
+    font-family: 'ibm';
+    src: url('fonts/fonts/IBM-Logo.ttf'));
+}
+
+body {
+    background-color: #0000cd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flexbox;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #cdcd00;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #f8f3b9;
+}
+
+.button:hover {background-color: #9a9a00}
+
+.button:active {
+  background-color: #9a9a00;
+  box-shadow: 0 5px #f8f3b9;
+  transform: translateY(4px);
+}
+
+.centimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.topbar {
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   height:100px;
+   background-color:#cdcd00;
+   margin-top: auto;
+
+}
+
+.sidebar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #cd00cd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding-top: 50px;
+    border-right: 15px solid #cdcd00;
+    float: left;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.fasoli-andras {
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+}
+
+.Title-header {
+    text-align: center;
+    padding-left: 300px;
+    color: #cdcd00;
+    font-size: 70px;
+    text-shadow: 8px 8px black;
+}
+
+.introductionmsg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-top-style: dashed;
+    border-color: #cdcd00;
+    padding-left: 500px;
+    font-size: 25px;
+}
+
+.test-update {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-top-style: dashed;
+    border-color: #cdcd00;
+    padding-left: 500px;
+    font-size: 25px;
+}
+
+.test-update h1 {
+    text-shadow: 8px 8px black;
+    color: #cdcd00;
+}
+
+.test-update h6 {
+    color: #cd00cd;
+}
+
+.nonew-update {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-left: 300px;
+    text-align: center;
+    font-size: 5px;
+}
+
+.filter-mode {
+    text-align: left;
+    padding-left: 350px;
+    color: #cdcd00;
+    text-shadow: 4px 0px black;
+}
